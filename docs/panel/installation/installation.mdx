@@ -1,0 +1,35 @@
+---
+id: installation
+pagination_prev: panel/domain/domain
+---
+
+import AsciinemaPlayer from "@site/src/components/AsciinemaPlayer";
+
+# Installation
+
+Now we a ready to start the installation process.
+
+## Running the script
+
+First we need to make sure that the `root` user is selected.
+
+```bash
+sudo su
+```
+
+Then run the script itself.
+
+:::caution
+Do not put `sudo` in front of the command below. It will not work.
+:::
+
+```bash
+bash <(curl -s https://pterodactyl-installer.se)
+```
+
+## Selection
+
+You will be greeted with a selection of what to install.
+Choose option **0** to install panel.
+
+<AsciinemaPlayer src="/casts/install_panel.cast" speed={0.4} />

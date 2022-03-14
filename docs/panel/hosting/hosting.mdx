@@ -1,0 +1,24 @@
+---
+pagination_next: null
+pagination_prev: panel/domain/domain
+---
+
+import LinkGrid from "@site/src/components/LinkGrid";
+import hostingProviders from "@site/src/config/hostingProviders";
+import otherHostingProviders from "@site/src/config/otherHostingProviders";
+
+# Hosting
+
+## Cloud provider tutorials
+
+We have a list of guides for the most popular cloud hosting providers.
+
+<LinkGrid links={hostingProviders} />
+
+## Other hosting tutorials
+
+If you are using **a cloud provider other then listed above**, we have a **generic cloud hosting** tutorial.
+
+If you are **hosting server yourself**, we have a **self hosting** hosting tutorial.
+
+<LinkGrid links={otherHostingProviders} />

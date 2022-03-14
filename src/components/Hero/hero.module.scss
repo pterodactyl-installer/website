@@ -1,0 +1,54 @@
+.split {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.halfWidth {
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .split {
+    flex-wrap: wrap;
+  }
+
+  .halfWidth {
+    width: 100%;
+  }
+}
+
+.mainText {
+  text-align: center;
+}
+
+.secondaryText {
+  text-align: center;
+}
+
+.hiddenOnPhone {
+  display: block;
+}
+
+@media screen and (max-width: 996px) {
+  .mainText {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .secondaryText {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .hiddenOnPhone {
+    display: none;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

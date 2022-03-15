@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
             "padding-top--lg padding-left--md padding-right--xl"
           )}
         >
-          <AsciinemaPlayer src="/casts/terminal.cast" speed={1.25} />
+          <AsciinemaPlayer src="/casts/install_panel_full.cast" speed={1.25} />
         </div>
       )}
     </div>

@@ -26,7 +26,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/pterodactyl-installer/docs/tree/main/",
+          editUrl:
+            "https://github.com/pterodactyl-installer/website/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.scss"),

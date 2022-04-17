@@ -1,0 +1,33 @@
+---
+sidebar_position: 3
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+# Firewall
+
+After entering FQDN you will be asked whether a firewall is needed.
+
+```
+Do you want to automatically configure firewall? (y/N):
+```
+
+:::caution
+If you are using panel and wings on the same machine, you need to select same option in both prompts.
+:::
+
+<Tabs>
+  <TabItem value="cloud_hosting" label="Cloud hosting" default>
+    <p>
+      If your cloud hosting provider has an external firewall, which you have
+      configured to your needs, using system firewall is not necessary.
+    </p>
+  </TabItem>
+  <TabItem value="self_hosting" label="Self Hosting">
+    <p>
+      If your router is not allowing all ports and you are not using DMZ it is
+      not necessary to use system firewall.
+    </p>
+  </TabItem>
+</Tabs>

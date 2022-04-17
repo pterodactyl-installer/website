@@ -5,7 +5,7 @@ import { useColorMode } from "@docusaurus/theme-common";
 
 const index: React.FC = () => {
   const [selectedTimezone, setSelectedTimezone] = useState<ITimezoneOption>({
-    value: "none",
+    value: "",
     label: "Select a timezone",
   });
 

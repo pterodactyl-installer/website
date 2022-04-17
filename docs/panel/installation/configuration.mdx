@@ -3,8 +3,11 @@ sidebar_position: 2
 ---
 
 import TimeZoneSelect from "@site/src/components/TimeZoneSelect";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import CodeBlock from "@theme/CodeBlock";
 
-# Basic Configuration
+# Configuration
 
 ## Timezone
 
@@ -22,6 +25,8 @@ This email address will be used for default egg author and letsencrypt.
 * Provide the email address that will be used to configure Let's Encrypt and Pterodactyl:
 ```
 
+## Intitial user
+
 Then you will be asked for initial admin account details.
 
 ```
@@ -31,3 +36,24 @@ Then you will be asked for initial admin account details.
 * Last name for the initial admin account:
 * Password for the initial admin account:
 ```
+
+# FQDN
+
+Then you will be asked for a FQDN.  
+**FQDN** - Fully Qualified Domain Name.
+
+<Tabs>
+  <TabItem value="domain" label="Domain" default>
+    <CodeBlock>* Set the FQDN of this panel: panel.example.com</CodeBlock>
+    <p>
+      This is the FQDN that will be used to access this panel. This is also the
+      FQDN that will be used to configure Let's Encrypt and Pterodactyl.
+    </p>
+  </TabItem>
+  <TabItem value="ip" label="IP">
+    <CodeBlock>* Set the FQDN of this panel: 85.56.4.32</CodeBlock>
+  </TabItem>
+  <TabItem value="local" label="Local">
+    <CodeBlock>* Set the FQDN of this panel: localhost</CodeBlock>
+  </TabItem>
+</Tabs>

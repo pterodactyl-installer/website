@@ -5,7 +5,7 @@ const prismTheme = require("prism-react-renderer/themes/nightOwl");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Pterodactyl installer",
+  title: "Pterodactyl Installer",
   tagline:
     "Unofficial scripts for installing Pterodactyl Panel & Wings. Works with the latest version of Pterodactyl!",
   url: "https://pterodactyl-installer.se",
@@ -40,9 +40,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Pterodactyl installer",
+        title: "Pterodactyl Installer",
         logo: {
-          alt: "Pterodactyl installer logo",
+          alt: "Pterodactyl Installer logo",
           src: "img/logo.png",
         },
         items: [
@@ -90,7 +90,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Pterodactyl installer, Built with Docusaurus.`,
+        copyright: `Copyright © 2018 - ${new Date().getFullYear()} pterodactyl-installer. Built with Docusaurus. Maintained by Vilhelm Prytz.`,
       },
       prism: {
         theme: prismTheme,

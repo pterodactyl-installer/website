@@ -9,7 +9,7 @@ nodes and servers to the system.
 
 **Node** — A node is a physical machine that runs an instance of Wings.
 
-**Wings** — A service which interfaces with Docker and the Panel to provide secure access for
+**Wings** — A service that interfaces with Docker and the Panel to provide secure access for
 controlling servers via the Panel.
 
 **Server** — In this case, a server refers to a running instance that is created by the panel. These servers are

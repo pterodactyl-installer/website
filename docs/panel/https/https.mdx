@@ -1,5 +1,6 @@
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
+import CodeBlock from "@theme/CodeBlock";
 
 # HTTPS (SSL)
 
@@ -33,13 +34,21 @@ There are 2 ways in the script to set up SSL:
       It's easy to set up SSL using Let's Encrypt. The script will automatically
       try to create a certificate for your domain.
     </p>
+    <CodeBlock>
+      * Do you want to automatically configure HTTPS using Let's Encrypt? (y/N): y
+    </CodeBlock>
   </TabItem>
   <TabItem value="ssl_certs" label="SSL certificates">
     <p>
       This way certificates are created manually by the user. After installation
       for a working panel you will need to place certificates in the following
-      locations: - Public certificate:
-      <code>/etc/letsencrypt/live/domain/fullchain.pem</code>
+      locations:<br/>
+      Public certificate: <code>/etc/ssl/{"<domain>"}.pem</code><br/>
+      Private certificate: <code>/etc/ssl/{"<domain>"}.key</code>
     </p>
+    <CodeBlock>
+      * Do you want to automatically configure HTTPS using Let's Encrypt? (y/N): n <br/>
+      * Assume SSL or not? (y/N): y
+    </CodeBlock>
   </TabItem>
 </Tabs>

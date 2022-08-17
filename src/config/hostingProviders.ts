@@ -10,7 +10,7 @@ const Providers: IconLinkProps[] = [
   { icon: faAws, to: "aws", text: "Amazon Web Services" },
   { icon: faDigitalOcean, to: "digital_ocean", text: "Digital Ocean" },
   { icon: faGoogle, to: "google_cloud", text: "Google Cloud Platform" },
-  { icon: faCrow, to: "google_cloud", text: "Oracle" },
+  { icon: faCrow, to: "oracle", text: "Oracle" },
 ];
 
 export default Providers;

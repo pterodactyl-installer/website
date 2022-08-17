@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Terminology
 
 **Panel** — This refers to Pterodactyl Panel itself, and is what allows you to add additional

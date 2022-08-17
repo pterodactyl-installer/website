@@ -1,7 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const prismTheme = require("prism-react-renderer/themes/nightOwl");
+const prismDarkTheme = require("prism-react-renderer/themes/nightOwl");
+const prismLightTheme = require("prism-react-renderer/themes/nightOwlLight");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -93,7 +94,8 @@ const config = {
         copyright: `Copyright © 2018 - ${new Date().getFullYear()} pterodactyl-installer. Built with Docusaurus. Maintained by Vilhelm Prytz.`,
       },
       prism: {
-        theme: prismTheme,
+        theme: prismLightTheme,
+        darkTheme: prismDarkTheme,
       },
     }),
 };

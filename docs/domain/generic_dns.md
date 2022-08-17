@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-pagination_next: panel/hosting/hosting
+pagination_next: panel/panel
 ---
 
 # Generic DNS

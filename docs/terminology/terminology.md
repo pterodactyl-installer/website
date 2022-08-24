@@ -11,6 +11,8 @@ controlling servers via the Panel.
 **Server** — In this case, a server refers to a running instance that is created by the panel. These servers are
 created on nodes, and you can have multiple servers per node.
 
+**FQDN** — A fully qualified domain name
+
 ## Example Setup Diagram
 
 ![Example setup](./example_setup.png)

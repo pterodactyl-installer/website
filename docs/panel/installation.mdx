@@ -19,13 +19,19 @@ sudo -i
 
 Then run the script itself.
 
-:::caution
-Do not put `sudo` in front of the command below. It will not work.
-:::
-
 ```bash
 bash <(curl -s https://pterodactyl-installer.se)
 ```
+
+:::caution
+Do not put `sudo` in front of the command above. It will not work.
+:::
+
+:::info
+If you get `bash: curl: command not found`
+
+Install the `curl` package
+:::
 
 ## Selection
 

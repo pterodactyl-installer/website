@@ -1,13 +1,14 @@
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import CodeBlock from "@theme/CodeBlock";
+import Link from "@docusaurus/Link";
 
 # HTTPS (SSL)
 
 :::caution
 If you are not using a domain, you will not be able to use SSL.
 
-<Link to="../hosting" className="button button--warning button--lg">
+<Link to="../summary" className="button button--warning button--lg">
   Continue with installation
 </Link>
 :::
@@ -35,20 +36,23 @@ There are 2 ways in the script to set up SSL:
       try to create a certificate for your domain.
     </p>
     <CodeBlock>
-      * Do you want to automatically configure HTTPS using Let's Encrypt? (y/N): y
+      * Do you want to automatically configure HTTPS using Let's Encrypt? (y/N):
+      y
     </CodeBlock>
   </TabItem>
   <TabItem value="ssl_certs" label="SSL certificates">
     <p>
       This way certificates are created manually by the user. After installation
       for a working panel you will need to place certificates in the following
-      locations:<br/>
-      Public certificate: <code>/etc/ssl/{"<domain>"}.pem</code><br/>
+      locations:
+      <br />
+      Public certificate: <code>/etc/ssl/{"<domain>"}.pem</code>
+      <br />
       Private certificate: <code>/etc/ssl/{"<domain>"}.key</code>
     </p>
     <CodeBlock>
-      * Do you want to automatically configure HTTPS using Let's Encrypt? (y/N): n <br/>
-      * Assume SSL or not? (y/N): y
+      * Do you want to automatically configure HTTPS using Let's Encrypt? (y/N):
+      n <br />* Assume SSL or not? (y/N): y
     </CodeBlock>
   </TabItem>
 </Tabs>
